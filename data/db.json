@@ -1,5 +1,5 @@
 {
-    "user": [
+    "users": [
         {
             "id": 1,
             "username": "bambang70",
@@ -13,7 +13,7 @@
             "password": "udin321"
         }
     ],
-    "team": [
+    "teams": [
         {
             "id": 1,
             "team_name": "Manchester United",
