@@ -11,21 +11,21 @@
 - **Start nodemon:**
   <The request type>
 
-  npm run dev
+    npm run dev
 
 - **The application is run at `http://localhost:8000`**
 
 ## Login
 
 - **User list:**
-  check this JSON ![User list](https://github.com/fadlan7/Assignment-RestAPI-JWT/blob/main/data/db.json)
+  check this JSON [User list](https://github.com/fadlan7/Assignment-RestAPI-JWT/blob/main/data/db.json)
 
 - **URL:**
   <The request type>
-  /login
+    /login
 - **Method:**
   <The request type>
-  POST
+    POST
 - **Success response:**
   ![response login success](https://github.com/fadlan7/Assignment-RestAPI-JWT/blob/main/apiresponse_images/postman-loginuser.png)
 - **Error response:**
