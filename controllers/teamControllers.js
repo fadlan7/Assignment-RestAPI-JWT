@@ -19,7 +19,11 @@ class teamController {
       const team = dataTeam.teams;
       const findById = team.find((element) => element.id == id);
 
-      res.status(200).json(findById);
+      if (!findById) {
+        res.status(400).json({ message: `didn’t find a team with id ${id}` });
+      } else {
+        res.status(200).json(findById);
+      }
     } catch (error) {
       res.status(500).json({ message: error.message });
     }
