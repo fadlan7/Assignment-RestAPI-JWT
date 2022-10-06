@@ -42,8 +42,8 @@ check this JSON [User list](https://github.com/fadlan7/Assignment-RestAPI-JWT/bl
 	    Code: 500
 	    Content: { error : "Internal Server Error" }
 
-## Teamssss
-Need login before getting teams
+## Teams
+**Need login before getting teams**
 * **Team list:**
 check this JSON [Team list](https://github.com/fadlan7/Assignment-RestAPI-JWT/blob/main/data/db.json)
 
@@ -59,7 +59,7 @@ check this JSON [Team list](https://github.com/fadlan7/Assignment-RestAPI-JWT/bl
 <The request type>
 	
 	   GET
-* **Success response:**
+* **Success response:** <br>
  get all teams
 ![response get all teams](https://github.com/fadlan7/Assignment-RestAPI-JWT/blob/main/apiresponse_images/postman-getallteams.png)
  get team by id
