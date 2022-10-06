@@ -1,4 +1,4 @@
-const data = require('../data/db.json');
+const data = __dirname + '/../data/db.json';
 const fs = require('fs');
 const { verifyToken } = require('../helper/jwt');
 
@@ -17,6 +17,8 @@ async function authentication(req, res, next) {
     res.dataUser = findUserById;
     return next();
   } catch (error) {
-    res.status(401).json(error);
+    res.status(401).json({ message: error.message });
   }
 }
+
+module.exports = authentication;
